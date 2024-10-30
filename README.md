@@ -42,10 +42,13 @@ This repository contains the Python code, datasets, PCAP files, and machine lear
 - dataset_preprocessing.py: Script for preprocessing the collected PCAP files with Scapy.
 - Main1.py: Script for processing dataset for security optimization.
 - Main2.py: Script for processing dataset for QoS optimization.
-- PraxisDataset1.csv: Preprocessed dataset with Scapy, formatted as CSV files.
+- Train_Data.csv: Dataset used for model training, formatted as CSV files.
+- Val_Data.csv: Dataset used for validation, formatted as CSV files.
 - Victim1_PC18.pcap: Traffic captured from the 1st Victim VM.
 - Victim2_DK16.pcap: Traffic captured from the 2nd Victim VM.
 - Victim3_VM11.pcap: Traffic captured from the 3rd Victim VM.
+- C_Stacking_Model.joblib: Trained model for security optimization.
+- R_GRU_Model.h5: Trained model for QoS optimization.
 
 ## Results and Evaluation
 Results from this project, including trained models and evaluations, are detailed in my praxis paper. The models have been tested on simulated datasets to validate ResSDN’s effectiveness in balancing QoS and security in SDN environments.
