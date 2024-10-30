@@ -22,24 +22,12 @@ This repository contains the Python code, datasets, PCAP files, and machine lear
 |   |-- Victim2_Output.csv
 |   |-- Victim3_Output.csv
 |   |-- combined_file.csv
-|   |-- PraxisDataset1.csv
-|   |-- data_imputed.csv
-|   |-- new_data_with_predictions.csv
-|   |-- data_with_predictions2.csv
-|   |-- Training_Dataset.csv
-|   |-- prediction_Finally1.csv
-|   |-- prediction_Finally2.csv
-|   |-- Vali_Dataset.csv
-|   |-- Vali_Dataset1.csv
-|   |-- valiRow.csv
+|   |-- Train_Data.csv
+|   |-- Vali_Data.csv
 |-- Pcap/
 |   |-- Victim1_PC18.pcap
 |   |-- Victim2_DK16.pcap
 |   |-- Victim3_VM11.pcap
-|   |-- Victim1_PC18_Filtered.pcap
-|   |-- Victim2_DK16_Filtered.pcap
-|   |-- Victim3_VM11_Filtered.pcap
-|   |-- Victim2_DK16_Filtered2.pcap
 |-- Model/
 |   |-- C_LightGBM_Model.joblib
 |   |-- C_Random Forest_Model.joblib
